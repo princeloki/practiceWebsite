@@ -19,6 +19,7 @@ html, body{
   "nav nav"
   "main main"
   "section section"
+  "section2 section2"
   "footer footer"
 
 }
@@ -194,9 +195,11 @@ main h3{
 }
 
 .newsletter .cont{
+  grid-area: section2;
   display: flex;
   flex-direction: column;
   margin-top: 140px;
+  width: 100%;
 }
 
 .newsletter .cont .text{
@@ -245,6 +248,8 @@ main h3{
 footer{
   grid-area: footer;
   background: rgb(238, 103, 103);
+  color: #fff;
+  text-align: center;
   height: 70px;
   width: 100%;
   margin-top: 100px;

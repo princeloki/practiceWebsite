@@ -6,7 +6,7 @@ if(x.matches){
     item.addEventListener("mouseover", event =>{
       item.style.height = "130px";
       item.querySelector("h2").style.opacity = "0";
-      item.querySelector("Button").style.opacity = "1";
+      item.querySelector("Button").style.opacity = "1"
     })
   })
   secDiv.forEach(item =>{
